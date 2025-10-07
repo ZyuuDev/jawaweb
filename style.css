@@ -81,7 +81,7 @@ header.shadow .logo{
 }
 
 .logo{
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 600;
     color: var(--bg-color);
 }
@@ -93,7 +93,6 @@ header.shadow .logo{
 
 .menu{
     padding: 8px 14px;
-    font-size: 8px;
     border-radius: 4px;
     background: var(--second-color);
     color: var(--bg-color);
@@ -130,7 +129,7 @@ header.shadow .logo{
 
 .home-subtitle{
     text-shadow: #000000 1px 1px 2px, #000000 0 0 1em, #000000 0 0 0.2em;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -407,9 +406,14 @@ footer p{
         padding: 10px 0;
     }
 
-    .navbar{
-        display: none;
-    }
+.logo{
+    font-size: 1.5rem;
+}
+
+.navbar{
+    display: none;
+}
+
     section{
         padding: 2rem 0 !important;
     }
@@ -471,9 +475,6 @@ footer p{
 }
 
 @media (max-width: 570px){
-    .navbar{
-        display: none;
-    }
     .post-header{
         height: 390px;
     }
@@ -488,10 +489,6 @@ footer p{
 }
 
 @media (max-width: 396px){
-
-    .navbar{
-        display: none;
-    }
     .home-title{
         font-size: 2rem;
     }
@@ -561,7 +558,7 @@ footer p{
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -579,7 +576,7 @@ footer p{
 }
 @keyframes typewriter {
   from { width: 0; }
-  to { width: 50%; }
+  to { width: 60%; }
 }
 @keyframes blinkingCursor{
   from { border-right-color: rgba(255, 255, 255, 0.75); }
@@ -587,7 +584,6 @@ footer p{
 }
 
 #playButton {
-    font-size: 8px;
   background-color: #f5c000;
   color: rgb(255, 255, 255);
   border: none;
