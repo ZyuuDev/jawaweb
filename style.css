@@ -407,6 +407,9 @@ footer p{
         padding: 10px 0;
     }
 
+    .navbar{
+        display: none;
+    }
     section{
         padding: 2rem 0 !important;
     }
@@ -468,6 +471,9 @@ footer p{
 }
 
 @media (max-width: 570px){
+    .navbar{
+        display: none;
+    }
     .post-header{
         height: 390px;
     }
@@ -482,6 +488,10 @@ footer p{
 }
 
 @media (max-width: 396px){
+
+    .navbar{
+        display: none;
+    }
     .home-title{
         font-size: 2rem;
     }
